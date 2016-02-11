@@ -1,0 +1,11 @@
+{
+  "name": "array_flattener",
+  "version": "1.0.0",
+  "description": "Add a method to Array type to flatten a nested array contents",
+  "main": "get_flattened_array.js",
+  "scripts": {
+    "test": "node get_flattened_array.test.js"
+  },
+  "author": "Joel Barba",
+  "license": "ISC"
+}
