@@ -4,8 +4,17 @@
   "description": "Add a method to Array type to flatten a nested array contents",
   "main": "get_flattened_array.js",
   "scripts": {
-    "test": "node get_flattened_array.test.js"
+    "test": "jasmine test/my-tests.js"
   },
   "author": "Joel Barba",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joelbarba/array_flattener"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "jasmine-node": "^1.14.5"
+  }
 }
